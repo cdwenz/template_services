@@ -1,0 +1,14 @@
+.sectionAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  height: 250px;
+}
+
+.textAbout {
+  text-align: center;
+  min-width: 600px;
+  max-width: 80%;
+  color: black;
+}

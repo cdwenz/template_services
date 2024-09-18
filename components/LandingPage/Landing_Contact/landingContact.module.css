@@ -1,0 +1,113 @@
+.mainContact {
+  padding: 36px;
+  background-color: honeydew;
+  color: black;
+}
+
+.mainContact > h1 {
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+  font-weight: 600;
+}
+
+.containContact {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.infoContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  max-width: 600px;
+  padding: 36px;
+}
+
+.socialFooter {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding: 36px;
+}
+
+.btnSocial:hover {
+  background-color: #000;
+  border: 1px solid transparent;
+}
+
+.btnSocial:hover > svg {
+
+}
+
+.btnSocial {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid var(--main-color-2);
+  transition: all 0.3s;
+}
+
+.btnSocial > svg {
+  color: var(--main-color-2);
+  transition: all 0.3s;
+}
+
+.yourBusiness {
+  color: var(--main-color);
+}
+
+.WhatsApp {
+  color: #25d366;
+}
+
+.iconsContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.iconsContact > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.containForm {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  max-width: 600px;
+}
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  padding: 48px 24px;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .containContact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoContact {
+    width: 100%;
+    gap: 24px;
+    background: #80808038;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  .containForm {
+    width: 100%;
+  }
+}

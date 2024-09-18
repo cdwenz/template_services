@@ -1,0 +1,33 @@
+.mainFaqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px;
+  background-color: var(--main-color-2);
+  color: black;
+}
+
+.mainFaqs > span {
+  color: white;
+}
+
+.containFaqs {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 12px;
+  width: 100%;
+  max-width: 600px;
+}
+
+
+.containFaqs > details > summary {
+  cursor: pointer;
+  margin-bottom: 12px;
+  font-size: large;
+}
+.containFaqs > details > small {
+  letter-spacing: 1px;
+  color: white;
+  font-size: medium;
+}

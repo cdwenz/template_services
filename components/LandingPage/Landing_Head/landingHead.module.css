@@ -1,0 +1,39 @@
+.containHead {
+    position: relative;
+    height: 600px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/ezequiel_oriana%2F2151307800.jpg?alt=media&token=f8376c51-3839-45a9-a09c-213f13ead291");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: flex-end;
+}
+
+.titleHead {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 40%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.384);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding-block: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    color: rgba(245, 245, 245, 0.932);
+    border-radius: 10px;
+}
+
+.subtitle {
+    color: var(--main-color-2);
+}
+
+.demoHead {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30%;
+}
+
