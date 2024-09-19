@@ -25,6 +25,28 @@ const steps = [
       "Cavas, sótanos, subsuelos, rebajes de terrenos, pozos de infiltración. Ofrecemos un servicio completo e integral a su necesidad.",
   },
   {
+    title: "Desmonte y Limpieza",
+    img_light: (
+      <img
+        width="100"
+        height="100"
+        src="https://img.icons8.com/ios-filled/100/FFA400/bulldozer.png"
+        alt="bulldozer"
+      />
+    ),
+    img_black: (
+      <img
+        width="100"
+        height="100"
+        src="https://img.icons8.com/ios-filled/100/bulldozer.png"
+        alt="bulldozer"
+      />
+    ),
+    alt: "imagen del panel administrativo autogestionable",
+    description:
+      "Compactaciones, terraplenes, plateas, etc. Además realizamos excavacioes y retiro de tierra para piletas. ",
+  },
+  {
     title: "Demolición",
     img_light: (
       <img
@@ -67,28 +89,6 @@ const steps = [
     alt: "imagen del menú digitalizado",
     description:
       "Preparación de jardines, nivelación del terrenos, limpieza fin de obras, nivelaciones, retiro de escombros, limpieza general de espacios para contrucción.",
-  },
-  {
-    title: "Desmonte y Limpieza",
-    img_light: (
-      <img
-        width="100"
-        height="100"
-        src="https://img.icons8.com/ios-filled/100/FFA400/bulldozer.png"
-        alt="bulldozer"
-      />
-    ),
-    img_black: (
-      <img
-        width="100"
-        height="100"
-        src="https://img.icons8.com/ios-filled/100/bulldozer.png"
-        alt="bulldozer"
-      />
-    ),
-    alt: "imagen del panel administrativo autogestionable",
-    description:
-      "Compactaciones, terraplenes, plateas, etc. Además realizamos excavacioes y retiro de tierra para piletas. ",
   },
   {
     title: "Desmonte y Limpieza",

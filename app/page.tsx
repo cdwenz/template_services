@@ -23,7 +23,7 @@ function page() {
       <LandingBenefits />
       {/* <LandingPricing /> */}
       {/* <LandingDemos /> */}
-      <LandingFaqs />
+      {/* <LandingFaqs /> */}
       <LandingContact />
       <LandingFooter />
       <WA />
