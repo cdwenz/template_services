@@ -24,7 +24,7 @@ const LandingNavbar = () => {
     const setear = () => {
       if (typeof window !== "undefined") {
         const navbar = document.getElementById("navbar");
-        let { scrollY } = window;
+        const { scrollY } = window;
         if (scrollY > lastScrollTop) {
           navbar?.classList.remove(styles.visible);
         } else if (scrollY < lastScrollTop) {

@@ -7,10 +7,6 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import LanguageIcon from '@mui/icons-material/Language';
-import UpdateIcon from '@mui/icons-material/Update';
-import QrCode2Icon from '@mui/icons-material/QrCode2';
-import MoreTimeIcon from '@mui/icons-material/MoreTime';
-import FindInPageIcon from '@mui/icons-material/FindInPage';
 
 const benefits = [
   {

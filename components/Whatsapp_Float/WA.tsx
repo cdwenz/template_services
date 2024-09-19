@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import styles from "./wa.module.css";
-import Image from "next/image";
 
 function WA() {
   const [scroll, setScroll] = useState(false);
