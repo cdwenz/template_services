@@ -2,7 +2,7 @@
 
 import React, { useState, Ref } from "react";
 import styles from "./landingContact.module.css";
-import { Button, Modal, TextField } from "@mui/material";
+import { Button, TextField } from "@mui/material";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { styled } from "@mui/material/styles";

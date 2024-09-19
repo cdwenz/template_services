@@ -72,7 +72,7 @@ const LandingNavbar = () => {
         <a href="#ABOUT">Empresa</a>
         <a href="#SERVICES">Servicios</a>
         {/* <a href="#PRICING">Planes</a> */}
-        <a href="#FAQ">FAQ</a>
+        <a href="#BENEFITS">Precios</a>
         <a href="#CONTACT" className={styles.signin}>Contacto</a>
       </div>
     </nav>
