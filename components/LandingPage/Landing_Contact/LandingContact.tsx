@@ -9,6 +9,7 @@ import { styled } from "@mui/material/styles";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import MarkunreadIcon from '@mui/icons-material/Markunread';
 
 const CssTextField = styled(TextField)({
   "& label.Mui-focused": {
@@ -80,6 +81,10 @@ const LandingContact = () => {
             <div>
               <LocationOnIcon sx={{ color: "#FFA400" }} />
               <span>Jose León Suarez, Buenos Aires, Argentina</span>
+            </div>
+            <div>
+              <MarkunreadIcon sx={{ color: "#FFA400" }} />
+              <span>contacto@frasvial.com</span>
             </div>
           </div>
           <h1 style={{ maxWidth: "400px" }}>

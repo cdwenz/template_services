@@ -50,7 +50,7 @@ const LandingNavbar = () => {
     <nav id="navbar" className={`${styles.navLanding} ${styles.visible}`}>
       <div className={styles.containImg}>
       <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/bulldozer.png" alt="bulldozer"/>
-        <h3>Ezequiel Servicios</h3>
+        <h3>FRASVIAL</h3>
       </div>
       <div className={styles.hamburguer}>
         <IconButton
