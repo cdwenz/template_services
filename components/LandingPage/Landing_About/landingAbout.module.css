@@ -1,14 +1,33 @@
 .sectionAbout {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-color) ;
-  height: 250px;
+  background-color: #FCFCFC ;
+  height: 350px;
 }
 
 .textAbout {
-  text-align: center;
-  min-width: 600px;
-  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  text-align: left;
+  min-width: 400px;
+  max-width: 800px;
   color: black;
+  padding-block: 24px;
+}
+
+.textAbout > hr {
+  border: 2px solid var(--main-color-2);
+  width: 15%;
+}
+
+.aboutH1 {
+  font-size: xx-large;
+}
+
+.aboutH3 {
+  font-weight: 300;
 }
