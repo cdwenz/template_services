@@ -9,7 +9,7 @@ import { styled } from "@mui/material/styles";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import MarkunreadIcon from '@mui/icons-material/Markunread';
+import MarkunreadIcon from "@mui/icons-material/Markunread";
 
 const CssTextField = styled(TextField)({
   "& label.Mui-focused": {
@@ -42,6 +42,7 @@ const LandingContact = () => {
     phone: "",
     message: "",
   });
+
   const [loading, setLoading] = useState(false);
   const miRef: Ref<HTMLDivElement> = React.createRef();
 
@@ -87,9 +88,7 @@ const LandingContact = () => {
               <span>contacto@frasvial.com</span>
             </div>
           </div>
-          <h1 style={{ maxWidth: "400px" }}>
-            Nuestras redes
-          </h1>
+          <h1 style={{ maxWidth: "400px" }}>Nuestras redes</h1>
           <div className={styles.socialFooter}>
             <a
               href="https://www.facebook.com"
@@ -119,7 +118,7 @@ const LandingContact = () => {
         </div>
         <div className={styles.containForm}>
           <form
-            action="https://formsubmit.co/menubarqr@gmail.com"
+            action="https://formspree.io/f/xeojbrkj"
             method="POST"
             className={styles.formContact}
           >
@@ -171,12 +170,6 @@ const LandingContact = () => {
             >
               Enviar
             </Button>
-            <input
-              type="hidden"
-              name="_next"
-              value="https://www.menubarqr.com/"
-            ></input>
-            <input type="hidden" name="_captcha" value="false" />
           </form>
         </div>
       </div>
