@@ -1,16 +1,40 @@
 import React from "react";
 import styles from "./landingAbout.module.css";
 
+import { Button } from "@mui/material";
+
 const LandingAbout = () => {
   return (
     <section id="ABOUT" className={styles.sectionAbout}>
       <div className={styles.textAbout}>
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil
-          labore aliquid unde enim quisquam ratione. Adipisci iure ipsam vero ea
-          accusamus. Sed ratione, labore neque distinctio dignissimos beatae
-          debitis?
+        <h1 className={styles.aboutH1}>
+          Nuestra experiencia es lo que nos caracteriza.
         </h1>
+        <hr />
+        <h3 className={styles.aboutH3}>
+          Creemos firmemente que la confianza y una comunicación abierta son
+          fundamentales en cada proyecto. Ha sido nuestra fórmula desde el
+          principio, y es la razón por la que nuestros clientes se ven
+          beneficiados.
+        </h3>
+        <Button
+          variant="contained"
+          sx={{
+            maxWidth: '300px',
+            fontWeight: "600",
+            textTransform: "capitalize",
+            fontFamily: "Roboto Condensed, sans-serif",
+            color: "black",
+            padding: "12px 24px",
+            backgroundColor: "#FECC01",
+            ":hover": {
+              color: "black",
+              backgroundColor: "#fbd744",
+            },
+          }}
+        >
+          VER PROYECTOS 
+        </Button>
       </div>
     </section>
   );
