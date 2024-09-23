@@ -25,8 +25,8 @@ const LandingHead = () => {
               fullWidth
               sx={{
                 fontWeight: "600",
-                textTransform: "capitalize",
-                fontFamily: "Anta, sans-serif",
+                textTransform: "Capitalize",
+                fontFamily: "Roboto Condensed, sans-serif",
                 color: "black",
                 padding: "12px 24px",
                 backgroundColor: "#FECC01",
@@ -36,7 +36,7 @@ const LandingHead = () => {
                 },
               }}
             >
-              Contacto
+              CONTACTO
             </Button>
           </a>
         </div>
