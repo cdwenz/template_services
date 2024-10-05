@@ -5,6 +5,8 @@ import styles from "./landingnavbar.module.css";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import Image from "next/image";
+import imgLogo from "@/public/frasvialpong.png";
 
 const LandingNavbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -49,8 +51,9 @@ const LandingNavbar = () => {
   return (
     <nav id="navbar" className={`${styles.navLanding} ${styles.visible}`}>
       <div className={styles.containImg}>
-      <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/bulldozer.png" alt="bulldozer"/>
-        <h3>FRASVIAL</h3>
+        <Image src={imgLogo} alt="Logo de empresa" height={100} className={styles.imageLogo}/>
+        {/* <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/bulldozer.png" alt="bulldozer"/> */}
+        {/* <h3>FRASVIAL</h3> */}
       </div>
       <div className={styles.hamburguer}>
         <IconButton
@@ -67,13 +70,19 @@ const LandingNavbar = () => {
           {showMobileMenu ? <CloseIcon /> : <MenuIcon />}
         </IconButton>
       </div>
-      <div id="mobileMenu" onClick={()=>mobileMenu()} className={styles.divItems}>
+      <div
+        id="mobileMenu"
+        onClick={() => mobileMenu()}
+        className={styles.divItems}
+      >
         <a href="#HOME">Inicio</a>
         <a href="#ABOUT">Empresa</a>
         <a href="#SERVICES">Servicios</a>
         {/* <a href="#PRICING">Planes</a> */}
         <a href="#BENEFITS">Precios</a>
-        <a href="#CONTACT" className={styles.signin}>Contacto</a>
+        <a href="#CONTACT" className={styles.signin}>
+          Contacto
+        </a>
       </div>
     </nav>
   );

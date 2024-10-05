@@ -77,21 +77,21 @@ const LandingContact = () => {
           <div className={styles.iconsContact}>
             <div>
               <LocalPhoneIcon sx={{ color: "#FFA400" }} />
-              <span>+54 11 3345 3212</span>
+              <span>+54 11 3081-9914</span>
             </div>
             <div>
               <LocationOnIcon sx={{ color: "#FFA400" }} />
-              <span>Jose León Suarez, Buenos Aires, Argentina</span>
+              <span>Libertad 6701 Loma Hermosa 1657</span>
             </div>
             <div>
               <MarkunreadIcon sx={{ color: "#FFA400" }} />
-              <span>contacto@frasvial.com</span>
+              <span>frascarolivial@outlook.com</span>
             </div>
           </div>
           <h1 style={{ maxWidth: "400px" }}>Nuestras redes</h1>
           <div className={styles.socialFooter}>
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=61566606382695"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.btnSocial}
@@ -107,7 +107,7 @@ const LandingContact = () => {
               <InstagramIcon />
             </a>
             <a
-              href="https://wa.me/5492995505631"
+              href="https://wa.me/541130819914"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.btnSocial}

@@ -8,15 +8,21 @@ import LandingContact from "@/components/LandingPage/Landing_Contact/LandingCont
 import WA from "@/components/Whatsapp_Float/WA";
 import LandingServices from "@/components/LandingPage/Landing_Services/LandingServices";
 import LandingGallery from "@/components/LandingPage/Landing_Gallery/LandingGallery";
+import LandingSlides from "@/components/LandingPage/Landing_Slides/LandingSlides";
 
 function page() {
   return (
     <div className={styles.mainPage}>
       <LandingNavbar />
       <LandingHead />
+      <>
+        <LandingServices />
+        <hr
+          style={{ height: "25px", border: "none", backgroundColor: "#202020" }}
+        />
+      </>
+      <LandingSlides />
       <LandingAbout />
-      <LandingServices />
-      <hr style={{height: '25px', border: 'none', backgroundColor:'#202020'}}/>
       <LandingGallery />
       <LandingContact />
       <LandingFooter />

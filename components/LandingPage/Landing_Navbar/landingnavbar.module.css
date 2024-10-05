@@ -10,7 +10,9 @@
   gap: 20px;
   padding: 0 20px;
   height: 92px;
+  /* background: linear-gradient(to right, #fcfcfc 30%, var(--main-color) 60%); */
   background: var(--main-color);
+  /* background: #FCFCFC; */
   color: black;
   transition: 0.3s;
   z-index: 1000;
@@ -23,10 +25,20 @@
 
 .containImg {
   display: flex;
-  height: 72px;
   overflow: hidden;
   align-items: center;
   gap: 12px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px 3px rgba(0, 0, 0);
+  background-color: var(--main-color);
+}
+
+.imageLogo {
+  color: transparent;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .logoMBQR {
