@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+import { Swiper as SwiperInstance } from 'swiper/types';
 
 import './galleryStyles.css';
 
@@ -16,7 +17,7 @@ import './galleryStyles.css';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 
 export default function LandingGallery() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperInstance | null>(null);
 
   return (
     <>
