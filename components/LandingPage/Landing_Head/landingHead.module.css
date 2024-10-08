@@ -24,7 +24,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(10px);
     text-align: center;
-    padding-block: 24px;
+    padding: 24px 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,3 +44,10 @@
     height: 30%;
 }
 
+@media screen and (max-width: 500px) {
+    .titleHead {
+        left: 5%;
+        width: 90%;
+        height: 60%;
+    }
+}

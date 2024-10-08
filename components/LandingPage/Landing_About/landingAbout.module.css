@@ -31,3 +31,21 @@
 .aboutH3 {
   font-weight: 300;
 }
+
+@media screen and (max-width: 500px) {
+  .sectionAbout {
+    height: auto;
+  }
+
+  .textAbout {
+    width: 85vw;
+    min-width: 0;
+    gap: 18px;
+  }
+
+  .textAbout > button {
+    width: 100%;
+    max-width: none;
+  }
+
+}

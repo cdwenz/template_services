@@ -123,3 +123,14 @@
     overflow-x: scroll;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .sectionCards {
+    flex-direction: column;
+  }
+
+  .mainCard {
+    width: 100%;
+    background: linear-gradient(to bottom, #242323, #2b2a2a);
+  }
+}
