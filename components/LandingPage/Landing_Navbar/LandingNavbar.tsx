@@ -51,7 +51,12 @@ const LandingNavbar = () => {
   return (
     <nav id="navbar" className={`${styles.navLanding} ${styles.visible}`}>
       <div className={styles.containImg}>
-        <Image src={imgLogo} alt="Logo de empresa" height={100} className={styles.imageLogo}/>
+        <Image
+          src={imgLogo}
+          alt="Logo de empresa"
+          height={100}
+          className={styles.imageLogo}
+        />
         {/* <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/bulldozer.png" alt="bulldozer"/> */}
         {/* <h3>FRASVIAL</h3> */}
       </div>
@@ -76,10 +81,9 @@ const LandingNavbar = () => {
         className={styles.divItems}
       >
         <a href="#HOME">Inicio</a>
-        <a href="#ABOUT">Empresa</a>
         <a href="#SERVICES">Servicios</a>
-        {/* <a href="#PRICING">Planes</a> */}
-        <a href="#BENEFITS">Precios</a>
+        <a href="#ABOUT">Empresa</a>
+        <a href="#GALLERY">Galeria</a>
         <a href="#CONTACT" className={styles.signin}>
           Contacto
         </a>

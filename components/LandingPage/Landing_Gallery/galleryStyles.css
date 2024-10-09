@@ -63,3 +63,20 @@
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
 }
+
+.swip {
+  max-width: 85vw;
+}
+
+.slides {
+  max-height: 11vh;
+}
+
+@media screen and (max-width: 500px) {
+  .swip {
+    max-width: 95vw;
+  }
+  .slides {
+    max-height: 30px;
+  }
+}
