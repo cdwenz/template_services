@@ -54,7 +54,7 @@ const LandingNavbar = () => {
         <Image
           src={imgLogo}
           alt="Logo de empresa"
-          height={100}
+          height={90}
           className={styles.imageLogo}
           loading="lazy"
         />
