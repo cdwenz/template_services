@@ -37,6 +37,20 @@
     height: 30%;
 }
 
+.button {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    padding: 12px 24px;
+    background-color: #FECC01;
+}
+
+.button:hover {
+    color: black;
+    background-color: #fbd744;
+}
+
 @media screen and (max-width: 900px) {
     .titleHead {
         left: 5%;

@@ -23,18 +23,7 @@ const LandingHead = () => {
             <Button
               variant="contained"
               fullWidth
-              sx={{
-                fontWeight: "600",
-                textTransform: "Capitalize",
-                fontFamily: "Roboto Condensed, sans-serif",
-                color: "black",
-                padding: "12px 24px",
-                backgroundColor: "#FECC01",
-                ":hover": {
-                  color: "black",
-                  backgroundColor: "#fbd744",
-                },
-              }}
+              className={styles.button}
             >
               CONTACTO
             </Button>
