@@ -10,6 +10,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/external-icongeek26-outline-icongeek26/100/FFA400/external-excavator-vehicles-icongeek26-outline-icongeek26.png"
         alt="external-excavator-vehicles-icongeek26-outline-icongeek26"
+        loading="lazy"
       />
     ),
     img_black: (
@@ -18,6 +19,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/100/external-excavator-vehicles-icongeek26-glyph-icongeek26.png"
         alt="external-excavator-vehicles-icongeek26-glyph-icongeek26"
+        loading="lazy"
       />
     ),
     alt: "excavator image",
@@ -32,6 +34,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/ios-filled/100/FFA400/bulldozer.png"
         alt="bulldozer"
+        loading="lazy"
       />
     ),
     img_black: (
@@ -40,6 +43,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/ios-filled/100/bulldozer.png"
         alt="bulldozer"
+        loading="lazy"
       />
     ),
     alt: "imagen del panel administrativo autogestionable",
@@ -54,6 +58,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/ios/100/FFA400/demolition-excavator.png"
         alt="demolition-excavator"
+        loading="lazy"
       />
     ),
     img_black: (
@@ -62,6 +67,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/ios-filled/100/demolition-excavator.png"
         alt="demolition-excavator"
+        loading="lazy"
       />
     ),
     alt: "demolition image",
@@ -76,6 +82,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/external-outlines-amoghdesign/100/FFA400/external-fog-weather-vol-01-outlines-amoghdesign.png"
         alt="external-fog-weather-vol-01-outlines-amoghdesign"
+        loading="lazy"
       />
     ),
     img_black: (
@@ -84,6 +91,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/external-outlines-amoghdesign/100/external-fog-weather-vol-01-outlines-amoghdesign.png"
         alt="external-fog-weather-vol-01-outlines-amoghdesign"
+        loading="lazy"
       />
     ),
     alt: "imagen del menú digitalizado",
@@ -98,6 +106,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/ios-filled/100/FFA400/bulldozer.png"
         alt="bulldozer"
+        loading="lazy"
       />
     ),
     img_black: (
@@ -106,6 +115,7 @@ const steps = [
         height="100"
         src="https://img.icons8.com/ios-filled/100/bulldozer.png"
         alt="bulldozer"
+        loading="lazy"
       />
     ),
     alt: "imagen del panel administrativo autogestionable",

@@ -37,43 +37,43 @@ export default function LandingGallery() {
         className="mySwiper2 swip"
       >
         <SwiperSlide>
-          <img src="/image/1.jpeg" />
+          <img src="/image/1.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/2.jpeg" />
+          <img src="/image/2.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/3.jpeg" />
+          <img src="/image/3.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/4.jpeg" />
+          <img src="/image/4.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/5.jpeg" />
+          <img src="/image/5.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/6.jpeg" />
+          <img src="/image/6.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/7.jpeg" />
+          <img src="/image/7.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/8.jpeg" />
+          <img src="/image/8.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/9.jpeg" />
+          <img src="/image/9.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/10.jpeg" />
+          <img src="/image/10.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/11.jpeg" />
+          <img src="/image/11.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/12.jpeg" />
+          <img src="/image/12.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/13.jpeg" />
+          <img src="/image/13.jpeg" loading="lazy"/>
         </SwiperSlide>
       </Swiper>
       <Swiper
@@ -87,43 +87,43 @@ export default function LandingGallery() {
         className="mySwiper slides"
       >
         <SwiperSlide>
-          <img src="/image/1.jpeg" />
+          <img src="/image/1.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/2.jpeg" />
+          <img src="/image/2.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/3.jpeg" />
+          <img src="/image/3.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/4.jpeg" />
+          <img src="/image/4.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/5.jpeg" />
+          <img src="/image/5.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/6.jpeg" />
+          <img src="/image/6.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/7.jpeg" />
+          <img src="/image/7.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/8.jpeg" />
+          <img src="/image/8.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/9.jpeg" />
+          <img src="/image/9.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/10.jpeg" />
+          <img src="/image/10.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/11.jpeg" />
+          <img src="/image/11.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/12.jpeg" />
+          <img src="/image/12.jpeg" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/13.jpeg" />
+          <img src="/image/13.jpeg" loading="lazy"/>
         </SwiperSlide>
       </Swiper>
     </>
