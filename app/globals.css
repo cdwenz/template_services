@@ -4,7 +4,6 @@
 :root {
   --main-color: rgba(254, 204, 1);
   --main-color-2: #ffc400;
-  /* --main-color-2: #ffa300; */
 }
 
 * {
@@ -26,38 +25,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  /* scrollbar-color: gray black; */
-}
-
-/* Chrome, Edge, and Safari */
-/* *::-webkit-scrollbar {
-  width: 8px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #3d3d3d;
-  border-radius: 3px;
-  width: 8px;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
-  border-radius: 6px;
-  border: 1px solid #3d3d3d;
-} */
-/* 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-@media (prefers-color-scheme: light) {
-  html {
-    color-scheme: light;
-  }
-} */

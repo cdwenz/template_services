@@ -41,14 +41,6 @@
   padding: 5px;
 }
 
-.logoMBQR {
-  width: 72px;
-  padding: 5px;
-  background-color: black;
-  object-fit: contain;
-  border-radius: 20%;
-}
-
 .divItems {
     display: flex;
     align-items: center;

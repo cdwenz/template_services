@@ -126,7 +126,6 @@ const steps = [
 
 const LandingServices = () => {
   return (
-    // <div className={styles.mainAbout}>
     <section id="SERVICES" className={styles.sectionCards}>
       {steps.map((step, index) => {
         return (
@@ -139,7 +138,6 @@ const LandingServices = () => {
                 <hr className={styles.hrCard} />
               </div>
             </div>
-            {/* <img src={step.img} alt={step.alt} className={styles.imgCard} /> */}
             <div className={styles.cardDown}>
               <span className={styles.textCard}>{step.description}</span>
             </div>
@@ -147,8 +145,6 @@ const LandingServices = () => {
         );
       })}
     </section>
-
-    // </div>
   );
 };
 

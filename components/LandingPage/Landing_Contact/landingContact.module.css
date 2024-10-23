@@ -39,10 +39,6 @@
   border: 1px solid transparent;
 }
 
-.btnSocial:hover > svg {
-
-}
-
 .btnSocial {
   display: flex;
   align-items: center;
@@ -56,14 +52,6 @@
 .btnSocial > svg {
   color: var(--main-color-2);
   transition: all 0.3s;
-}
-
-.yourBusiness {
-  color: var(--main-color);
-}
-
-.WhatsApp {
-  color: #25d366;
 }
 
 .iconsContact {
@@ -107,12 +95,10 @@
   .infoContact {
     width: 100%;
     gap: 24px;
-    /* background: #80808038; */
     backdrop-filter: blur(10px);
     border-radius: 10px;
   }
   .containForm {
     width: 100%;
-    /* background: #80808038; */
   }
 }
