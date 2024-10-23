@@ -51,7 +51,7 @@ export default function LandingSlides() {
         <SwiperSlide>
           <Image
             src={
-              "/2151307824.jpg"
+              "/2151307824.webp"
             }
             width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
             height={600}
@@ -62,7 +62,7 @@ export default function LandingSlides() {
         <SwiperSlide>
           <Image
             src={
-              "/2151317276.jpg"
+              "/2151317276.webp"
             }
             width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
             height={600}
@@ -73,7 +73,7 @@ export default function LandingSlides() {
         <SwiperSlide>
           <Image
             src={
-              "/2151317294.jpg"
+              "/2151317294.webp"
             }
             width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
             height={600}
@@ -84,7 +84,7 @@ export default function LandingSlides() {
         <SwiperSlide>
           <Image
             src={
-              "/2151317298.jpg"
+              "/2151317298.webp"
             }
             width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
             height={600}
