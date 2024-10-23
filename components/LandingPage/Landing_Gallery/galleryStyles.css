@@ -1,7 +1,14 @@
 :root {
   --swiper-theme-color: var(--main-color);
-  
 }
+
+.stylesSwiper {
+  display: flex;
+  height: 600px;
+  max-height: 85vh;
+  width: 1200px;
+}
+
 .swiper-pagination-bullet {
   opacity: var(--swiper-pagination-bullet-inactive-opacity);
 }
@@ -63,11 +70,15 @@
 }
 
 .swip {
-  max-width: 85vw;
+  max-width: 65vw;
 }
 
 .slides {
   max-height: 11vh;
+}
+
+.swiper-wrapper {
+  height: auto !important;
 }
 
 @media screen and (max-width: 900px) {

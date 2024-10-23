@@ -158,14 +158,7 @@ const LandingContact = () => {
               variant="contained"
               type="submit"
               disabled={handleClick()}
-              sx={{
-                color: "black",
-                fontWeight: "600",
-                textTransform: "capitalize",
-                backgroundColor: "#FECC01",
-                fontFamily: "Anta, sans-serif",
-                ":hover": { color: "#FECC01", backgroundColor: "black" },
-              }}
+              className={styles.button}
               onClick={() => setLoading(true)}
             >
               Enviar

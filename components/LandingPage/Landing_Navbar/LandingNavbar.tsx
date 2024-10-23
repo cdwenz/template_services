@@ -58,8 +58,6 @@ const LandingNavbar = () => {
           className={styles.imageLogo}
           loading="lazy"
         />
-        {/* <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/bulldozer.png" alt="bulldozer"/> */}
-        {/* <h3>FRASVIAL</h3> */}
       </div>
       <div className={styles.hamburguer}>
         <IconButton

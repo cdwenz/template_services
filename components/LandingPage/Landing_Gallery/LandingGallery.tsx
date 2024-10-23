@@ -22,58 +22,103 @@ export default function LandingGallery() {
   return (
     <>
       <Swiper
-        style={{
-          display: "flex",
-          height: "600px",
-          maxHeight: "85vh",
-          width: "1200px",
-          // maxWidth: "85vw",
-        }}
         loop={true}
         spaceBetween={10}
         navigation={true}
         thumbs={{ swiper: thumbsSwiper }}
         modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper2 swip"
+        className="mySwiper2 swip stylesSwiper"
       >
         <SwiperSlide>
-          <img src="/image/1.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/1.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/2.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/2.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/3.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/3.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/4.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/4.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/5.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/5.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/6.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/6.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/7.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/7.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/8.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/8.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/9.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/9.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/10.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/10.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/11.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/11.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/12.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/12.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/13.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/13.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
       </Swiper>
       <Swiper
@@ -87,43 +132,95 @@ export default function LandingGallery() {
         className="mySwiper slides"
       >
         <SwiperSlide>
-          <img src="/image/1.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/1.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/2.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/2.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/3.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/3.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/4.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/4.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/5.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/5.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/6.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/6.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/7.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/7.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/8.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/8.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/9.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/9.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/10.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/10.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/11.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/11.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/12.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/12.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/image/13.webp" loading="lazy" alt="Imagen de trabajos en obra"/>
+          <img
+            src="/image/13.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
         </SwiperSlide>
       </Swiper>
     </>

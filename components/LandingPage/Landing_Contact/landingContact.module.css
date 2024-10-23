@@ -83,6 +83,19 @@
   width: 100%;
 }
 
+.button {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: 'Anta', sans-serif;
+  color: black;
+  background-color: #FECC01;
+}
+
+.button:hover {
+  color: #FECC01;
+  background-color: black;
+}
+
 @media screen and (max-width: 900px) {
   .mainContact {
     padding: 0;

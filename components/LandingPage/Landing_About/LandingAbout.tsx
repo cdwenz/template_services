@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./landingAbout.module.css";
-
 import { Button } from "@mui/material";
 
 const LandingAbout = () => {
@@ -19,19 +18,7 @@ const LandingAbout = () => {
         </h3>
         <Button
           variant="contained"
-          sx={{
-            maxWidth: '300px',
-            fontWeight: "600",
-            textTransform: "capitalize",
-            fontFamily: "Roboto Condensed, sans-serif",
-            color: "black",
-            padding: "12px 24px",
-            backgroundColor: "#FECC01",
-            ":hover": {
-              color: "black",
-              backgroundColor: "#fbd744",
-            },
-          }}
+          className={styles.button}
         >
           VER PROYECTOS 
         </Button>
