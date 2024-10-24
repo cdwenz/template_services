@@ -38,11 +38,11 @@
 }
 
 .button {
-    font-weight: 600;
-    text-transform: capitalize;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
     color: black !important;
-    padding: 12px 24px;
+    padding: 12px 24px !important;
     background-color: #FECC01 !important;
 }
 
