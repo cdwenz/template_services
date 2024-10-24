@@ -41,9 +41,9 @@
     font-weight: 600;
     text-transform: capitalize;
     font-family: 'Roboto Condensed', sans-serif;
-    color: black;
+    color: black !important;
     padding: 12px 24px;
-    background-color: #FECC01;
+    background-color: #FECC01 !important;
 }
 
 .button:hover {
