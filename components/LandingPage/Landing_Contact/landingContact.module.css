@@ -1,6 +1,6 @@
 .mainContact {
   padding: 36px;
-  background-color: honeydew;
+  background-color: whitesmoke;
   color: black;
 }
 
@@ -35,17 +35,17 @@
 }
 
 .btnSocial:hover {
-  background-color: #000;
-  border: 1px solid transparent;
+  background-color: transparent;
+  border: 1px solid var(--main-color-2);
 }
 
 .btnSocial {
   display: flex;
   align-items: center;
   padding: 8px;
-  background-color: transparent;
+  background-color: #000;
   border-radius: 10px;
-  border: 1px solid var(--main-color-2);
+  border: 1px solid transparent;
   transition: all 0.3s;
 }
 
