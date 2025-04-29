@@ -49,47 +49,52 @@ export default function LandingSlides() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image
-            src={
-              "/2151307824.webp"
-            }
-            width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
-            height={600}
-            // style={{ width: "100%", height: "auto" }} 
-            alt="Foto ilustrativa"
+        <img
+            src="/image/6.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src={
-              "/2151317276.webp"
-            }
-            width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
-            height={600}
-            // style={{ width: "100%", height: "auto" }} 
-            alt="Foto ilustrativa"
+          <img
+            src="/image/7.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src={
-              "/2151317294.webp"
-            }
-            width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
-            height={600}
-            // style={{ width: "100%", height: "auto" }} 
-            alt="Foto ilustrativa"
+          <img
+            src="/image/8.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src={
-              "/2151317298.webp"
-            }
-            width={800} // Se establece a 0 para usar solo el height y adaptarlo con 'style'
-            height={600}
-            // style={{ width: "100%", height: "auto" }} 
-            alt="Foto ilustrativa"
+          <img
+            src="/image/10.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/image/11.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/image/12.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/image/13.webp"
+            loading="lazy"
+            alt="Imagen de trabajos en obra"
           />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">

@@ -66,3 +66,7 @@
     transform: rotate(-90deg);
   }
   
+  .mySwiper {
+    display: flex;
+    max-height: 600px;
+  }
