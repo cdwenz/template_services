@@ -17,7 +17,7 @@ const LandingHead = () => {
           />
         </h1>
         <h2 className={styles.subtitle}>Todo en movimiento de suelo</h2>
-        <span>Qui qui cillum minim minim ullamco ea aliqua occaecat et et ad irure text.</span>
+        <span>Mas de 30 años de experiencia</span>
         <div className={styles.demoHead}>
           <a href="#CONTACT" rel="noopener noreferrer">
             <Button

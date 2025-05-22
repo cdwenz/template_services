@@ -77,15 +77,15 @@ const LandingContact = () => {
           <div className={styles.iconsContact}>
             <div>
               <LocalPhoneIcon sx={{ color: "#FFA400" }} />
-              <span>+54 11 3081-9914</span>
+              <span>+54 11 6684-3836</span>
             </div>
             <div>
               <LocationOnIcon sx={{ color: "#FFA400" }} />
-              <span>Libertad 6701 Loma Hermosa 1657</span>
+              <span>Libertad 6701, Loma Hermosa, CP: 1657</span>
             </div>
             <div>
               <MarkunreadIcon sx={{ color: "#FFA400" }} />
-              <span>frascarolivial@outlook.com</span>
+              <span>frasvial@gmail.com</span>
             </div>
           </div>
           <h1 style={{ maxWidth: "400px" }}>Nuestras redes</h1>
