@@ -23,8 +23,8 @@ function WA() {
   return (
     <div className={styles.floating_button}>
       <a
-        href={`https://wa.me/5492995505631?text=${encodeURIComponent(
-          `Hola, me gustaría recibir información sobre los planes de MenuBarQR`
+        href={`https://wa.me/541166843836?text=${encodeURIComponent(
+          `Hola, me gustaría recibir información sobre los servicios de Frasvial`
         )}`}
         target="_blank"
         rel="noreferrer"

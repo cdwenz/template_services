@@ -99,7 +99,7 @@ const LandingContact = () => {
               <FacebookIcon />
             </a>
             <a
-              href="https://www.instagram.com/menubarqr/"
+              href="https://www.instagram.com/frasvial/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.btnSocial}
@@ -107,7 +107,7 @@ const LandingContact = () => {
               <InstagramIcon />
             </a>
             <a
-              href="https://wa.me/541130819914"
+              href="https://wa.me/541166843836"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.btnSocial}
