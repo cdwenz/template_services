@@ -19,9 +19,9 @@ const LandingAbout = () => {
           incluyendo dragalinas de más de 35 metros de altura, lo que nos
           permite abordar proyectos de gran envergadura.
         </h3>
-        <a href="#CONTACT">
+        <a href="#CONTACT" rel="noopener noreferrer">
           <Button variant="contained" className={styles.button}>
-            CONTACTANOS
+            CONTACTO
           </Button>
         </a>
       </div>

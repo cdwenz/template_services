@@ -33,18 +33,17 @@
 }
 
 .button {
-  max-width: 300px;
-  font-weight: 600;
-  text-transform: capitalize;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: black;
-  padding: 12px 24px;
-  background-color: #FECC01;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: black !important;
+    padding: 12px 24px !important;
+    background-color: #FECC01 !important;
 }
 
 .button:hover {
-  color: black;
-  background-color: #fbd744;
+    color: black;
+    background-color: #fbd744;
 }
 
 @media screen and (max-width: 900px) {
