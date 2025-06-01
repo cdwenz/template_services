@@ -10,7 +10,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 20%;
   background: linear-gradient(to right, #242323, #2b2a2a);
   padding: 24px;
@@ -40,9 +40,11 @@
   padding-block: 24px;
 }
 
-.cardUp,
-.cardDown {
+.cardUp {
   height: 50%;
+}
+.cardDown {
+  height: 40%;
 }
 
 .img_light {

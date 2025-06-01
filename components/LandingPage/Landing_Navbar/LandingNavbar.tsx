@@ -6,7 +6,7 @@ import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import Image from "next/image";
-import imgLogo from "@/public/frasvialpong.png";
+import imgLogo from "@/public/logo_frasvial.png";
 
 const LandingNavbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
